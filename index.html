@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>గైరమ్మ పేట - మా గ్రామం</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Telugu', sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+            background: linear-gradient(to bottom, #e0f7fa, #a7ffeb);
+            color: #2e4053;
+        }
+
+        header {
+            background: linear-gradient(90deg, #26c6da, #26a69a);
+            color: #ffffff;
+            padding: 2rem;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            text-align: center;
+            transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+            opacity: 0;
+            transform: translateY(50px);
+            font-size: 1.3rem;
+        }
+
+        .section:nth-child(even) {
+            background: rgba(230, 255, 250, 0.8);
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #00796b;
+            font-weight: bold;
+        }
+
+        .content {
+            max-width: 850px;
+            margin: 0 auto;
+            line-height: 1.8;
+            text-align: justify;
+            color: #2e4053;
+        }
+
+        .highlight {
+            color: #00796b;
+            font-weight: bold;
+        }
+
+        .show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        footer {
+            background: #26a69a;
+            color: #ffffff;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1rem;
+            margin-top: 2rem;
+            box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Scroll animations for headings */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<header>గైరమ్మ పేట</header>
+
+<section class="section" id="history">
+    <h2>గైరమ్మ పేట చరిత్ర</h2>
+    <div class="content">
+        <p>గైరమ్మ పేట అనేది ఒక చిన్న గ్రామం, ఇది ఒకే ఒక సాంప్రదాయానికి చెందిన వాసుల తో నిండి ఉంది. ఈ గ్రామం <span class="highlight">సాంప్రదాయ పండుగలు</span> మరియు ప్రశాంత వాతావరణానికి ప్రసిద్ధి. పచ్చని పంట చేలు మరియు చిన్న నదులతో చుట్టుముట్టి ఉంది.</p>
+        <p>మా ఊరిని <span class="highlight">గంగమ్మ తల్లి</span>గా పూజిస్తాం, ప్రతి ఐదు సంవత్సరాలకు ఒకసారి పంచాయతీ <span class="highlight">పెద పండుగ</span> పేరుతో ఉత్సాహంగా జరుపుకుంటారు.</p>
+        <p>భగవంతుడు శ్రీకృష్ణుడు కూడా మా గ్రామదేవుడు, ఇక్కడ అందరూ ఒకే కుటుంబం అని భావించి అందరూ శ్రీకృష్ణుని ఆరాధిస్తారు.</p>
+    </div>
+</section>
+
+<section class="section" id="geography">
+    <h2>గైరమ్మ పేట భౌగోళికం</h2>
+    <div class="content">
+        <p>ఈ గ్రామం ఒడిశా సరిహద్దుకు సమీపంలో, పాచిపెంట మండలం, పార్వతీపురం మన్యం జిల్లా లో ఉంది.</p>
+        <p>ఇది సుమారు 200 చదరపు మీటర్ల విస్తీర్ణం కలిగి ఉంది, ఇక్కడ సుమారు <span class="highlight">75 ఇళ్లు</span> ఉన్నాయి, ఆకారంలో సమానంగా కనిపిస్తాయి, పొడవు ఎక్కువగా మరియు వెడల్పు తక్కువగా ఉంటాయి.</p>
+        <p>చరిత్రలోకి వెళ్ళి చూస్తే ఇక్కడ జనవాసాలు మూడు కుటుంబాల నుండి వచ్చాయి.</p>
+    </div>
+</section>
+
+<section class="section" id="income">
+    <h2>ఆర్థిక వనరులు</h2>
+    <div class="content">
+        <p>గ్రామంలో ప్రధాన ఆదాయం <span class="highlight">వ్యవసాయం</span> నుండి వస్తుంది. కొన్ని కుటుంబాలు <span class="highlight">పశు పోషణ</span> మరియు చిన్న వ్యాపారాల్లో కూడా ఉన్నారు.</p>
+        <p>ఇతర కుటుంబాలు ఉద్యోగాలకు బహిరంగ ప్రాంతాలకు వెళుతారు, ఇది గ్రామానికి మరియు దాని కుటుంబాలకు ప్రగతికి తోడ్పడుతుంది.</p>
+    </div>
+</section>
+
+<section class="section" id="youth">
+    <h2>గైరమ్మ పేట యువత</h2>
+    <div class="content">
+        <p>గ్రామ యువత సాంప్రదాయాల పట్ల విభిన్నంగాను, మరియు ఆధునిక విద్యలతో అంగీకరించే వారు. వీరు ప్రతి పండుగలో భాగస్వామ్యం చెందుతారు మరియు గైరింమ్మ పేట యొక్క సంప్రదాయాన్ని కాపాడతారు.</p>
+    </div>
+</section>
+
+<section class="section" id="festival">
+    <h2>ప్రధాన పండుగ - పెద పండుగ</h2>
+    <div class="content">
+        <p><span class="highlight">పెద పండుగ</span> ప్రతి ఐదేళ్ళకు ఒకసారి జరుపుకుంటారు, ఇది గంగమ్మ తల్లిని ఆరాధిస్తూ జరుపుకుంటారు. ఈ పండుగ ప్రతి కుటుంబం అందరికీ సంఘీభావం కలిగిస్తుంది.</p>
+    </div>
+</section>
+
+<footer>© గైరమ్మ పేట - మా గ్రామం 2024</footer>
+
+<script>
+    // Smooth scroll animation and fade-in for each section on scroll
+    const sections = document.querySelectorAll('.section');
+
+    function revealSections() {
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight * 0.85) {
+                section.classList.add('show');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', revealSections);
+    window.addEventListener('load', revealSections);
+</script>
+
+</body>
+</html>
+
